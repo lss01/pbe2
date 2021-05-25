@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>i2020 Digital Libraries</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Codystar&family=Courgette&family=Sacramento&family=Tangerine&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Allura&family=Codystar&family=Courgette&family=Sacramento&family=Tangerine&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <hr class="trans--grow hr1">
+        <br>
+        <table class="link">
+            <tr>
+                <td>
+                    <img src="img/flag.png">
+                </td>
+                <td>
+                    <a href="index.html">HOME</a>
+                    <a href="food.html">FOOD</a>
+                    <a href="dress.html">DRESS WEAR</a>
+                </td>
+            </tr>
+        </table>
+        <hr class="trans--grow hr2">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+        <script>
+            jQuery(document).ready(function($){
+                setTimeout(function(){
+                $('.trans--grow').addClass('grow');
+                }, 275);
+            });
+        </script>
+        <br>
+        <table class="intro">
+            <tr>
+                <td><img src="img/b1.png" width="720px"></td>
+                <td><img src="img/b2.png" width="720px"></td>
+            </tr>
+        </table>
+        <br>
+        <div id="quotes">
+            <p>Ethics is knowing the difference between what you have a right to do and what is right to do</p>
+        </div>
+        <div id="content">
+            <p><br>Bintangor (formerly known as Binatang) is a town, and the capital of the Meradong District in Sarikei Division, of Sarawak, Malaysia. Situated along the Rejang River, Bintangor was an express boat services hub connecting between, Sarikei and Sibu town in the 1970s up to the early 1990s. As road connections between these towns became a more prominent mode of transport, the waterway of the town died down.The town is widely known for its gastronomy, including the "Limau Bintangor" or Bintangor lime, "Bintangor Kampua" and Rojak Bintangor, a dish of fruit and vegetable dish mixed together by special sauce dressing. The nearest city from the town is Sibu, 45 minutes drive via the Pan Borneo Highway.<br><br>Meradong District was initially named as Binatang district and the town as Binatang town. In Malay language, Binatang literally translated as "animal". It was said that this area was once a fertile land with various wild fruits; attracting animals to gather here and search for food. Therefore, the early settlers named it Binatang. However, the local people later felt that the name was indecent and it was changed to Bintang (meaning "stars" in Malay). After a few years, the local authorities decided that the place name should not be changed so easily; and they reverted the name back to Binatang. Finally, in 1984, after a discussion with district council members, Sarawak chief minister Abdul Taib Mahmud decided to change "Binatang" district into "Meradong" district and the town name to "Bintangor". The name Meradong is derived from the river of the same name, which passes through the town before merging into the larger Rajang River. The name Bintangor is derived from the name of a tree which is found on the hills. The Calanolide A compound extracted from the Bintangor tree (Calophyllum lanigerum) is believed to be a vital component to treat HIV infection.<br></p>
+        </div>
+        <div class="card">
+            <div class="text">
+              <h3>Subscribe Now!</h3>
+              <p>Subscribe us for latest updates</p>
+            </div>
+            <form  onsubmit = "return validate()">
+              <input id="useremail" type="email" placeholder="Your E-Mail" required>
+              <input id="submit" type="submit" onclick = "sayHello()" value="Submit">
+            </form>
+            <br>
+            <p id="print"></p>
+            <br>
+            <br>
+            <p>&copy; 2020 by Ling Siew Siew </p>
+          </div>
+          <script>
+              alert("WELCOME ~ ");
+          </script>
+          <script type = "text/javascript">
+               function sayHello() {
+                  alert("Thank You")
+               }
+         </script>
+          <script type = "text/javascript">
+               function validation() {
+                  return true 
+               }
+         </script> 
+    </body>
+</html>

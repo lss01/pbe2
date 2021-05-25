@@ -1,0 +1,127 @@
+body{
+    background-color: beige;
+}
+
+.link img{
+    margin-right: 20px;
+    width:80px;
+}
+
+
+.link a{
+    font-size: 22px;
+    padding: 25px;
+    text-decoration: none;
+    color: chocolate;
+    text-align: center;
+}
+
+.link a:hover{
+    color: darksalmon;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.trans--grow{
+    -webkit-transition: width 5s  ease-out;
+    transition: width 5s  ease-out;
+    width: 0%;
+    -moz-transition: width 5s  ease-out;
+    -ms-transition: width 5s  ease-out;
+    -o-transition: width 5s  ease-out;
+}
+
+.grow{
+    width:100%;
+}
+.hr1{
+    margin-left:0;
+}
+.hr2{
+    margin-right:0;
+}
+hr{
+    margin-top: 20px;
+    padding: 1.5px 0;
+    border: none;
+    background-color: chocolate;
+    letter-spacing: 5px;
+}
+
+
+#quotes p{
+    color: chocolate;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+}
+
+#content p{
+    color: chocolate;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(233, 205, 170);
+    width: 1400px;
+    margin-left: 35px;
+    font-family: 'Courgette', cursive;
+}
+
+.card {
+    border: border-box;
+    border-radius: 8px;
+    background-color: rgb(233, 205, 170);
+    height: auto;
+    width: 300px;
+    padding: 30px 25px;
+    box-shadow: 0px 10px 20px tan;
+    margin: auto; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  div {
+    text-align: center;
+    margin-bottom:  40px;
+  }
+
+h3 {
+    color: chocolate;
+    margin: 0;
+}
+
+p {
+    color: #59546A;
+    margin: 0;
+}
+
+  input[type="email"], input[type="submit"] {
+    border-radius: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  input[type="email"]{
+    background-color: rgba(245, 245, 220, 0.897);
+    border: solid rgba(245, 245, 220, 0.897);
+    color: #59546A;
+}
+  
+input[type="submit"] {
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+    margin-left: -80px;
+}
+
+::selection {
+    background-color: #614CE6;
+}
+
+p{
+    color: chocolate;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Allura', cursive;
+}
